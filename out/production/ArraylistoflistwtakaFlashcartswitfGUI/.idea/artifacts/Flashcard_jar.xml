@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="Flashcard:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/ArraylistoflistwtakaFlashcartswitfGUI_jar</output-path>
-    <root id="archive" name="Flashcard_jar.jar">
-      <element id="module-output" name="ArraylistoflistwtakaFlashcartswitfGUI" />
-    </root>
-  </artifact>
-</component>
