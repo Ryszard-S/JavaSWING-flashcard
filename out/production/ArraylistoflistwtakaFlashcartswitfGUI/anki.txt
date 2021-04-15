@@ -1,0 +1,35 @@
+piwo;das Bier;1;0
+napiwek;das Trinkgeld;1;1
+Zatrzymaj resztę;stimmt so;1;0
+wino;das Wein;1;0
+Cola;die Cola;1;0
+woda mineralna;die Mineralwasser;0;1
+herbata;die Tee;1;0
+kawa;der Kaffee;0;1
+ciasto;der Kuchen;0;1
+kawiarnia;das Cafe;0;1
+robić;machen;1;0
+Jesteś bardzo mądry;Du bist sehr gescheit;4;0
+most ;die Brücke;0;1
+rzeka;der Fluss;0;1
+dzielnica miasta;der Stadtteil;0;1
+ziemia, kraj;das Land;0;1
+miło mi;freucht mich;0;1
+park;der Park;0;1
+Wieża;der Turm;0;1
+rynek;der Markt;0;1
+do widzenia;auf wiedersehen!;0;1
+dzień dobry;guten tag!;0;1
+telefon;das Telefon;0;1
+muzeum;das Museum;0;1
+Pani;die Frau;0;1
+dworzec;der Banhof;0;1
+Pan;der Herr;0;1
+ulica;die Staße;0;1
+Polska;polen;0;1
+wizytówka;die Visitenkarten;0;1
+mówić; sagen;0;1
+niemcy;deutschland;0;1
+Wszystko dobrze, dzięki.;Ganz gut, danke!;0;1
+kościół;die kirche;0;1
+numer;die Nummer;0;1

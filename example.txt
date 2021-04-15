@@ -1,0 +1,4 @@
+znaki test;äÄöÖßü;0;1
+piwo;das Bier;1;0
+napiwek;das Trinkgeld;0;1
+Zatrzymaj resztę;stimmt so;0;1

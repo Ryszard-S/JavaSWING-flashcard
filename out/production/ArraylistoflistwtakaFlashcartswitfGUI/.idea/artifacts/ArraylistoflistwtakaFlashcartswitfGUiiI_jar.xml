@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="ArraylistoflistwtakaFlashcartswitfGUiiI:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ArraylistoflistwtakaFlashcartswitfGUiiI_jar</output-path>
+    <root id="archive" name="ArraylistoflistwtakaFlashcartswitfGUI.jar">
+      <element id="module-output" name="ArraylistoflistwtakaFlashcartswitfGUI" />
+    </root>
+  </artifact>
+</component>
