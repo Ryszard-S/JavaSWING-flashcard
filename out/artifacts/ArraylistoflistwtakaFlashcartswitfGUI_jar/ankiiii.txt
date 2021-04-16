@@ -1,0 +1,36 @@
+znaki test;äÄöÖßü;0;1
+piwo;das Bier;1;0
+napiwek;das Trinkgeld;0;1
+Zatrzymaj resztę;stimmt so;0;1
+wino;das Wein;1;0
+Cola;die Cola;0;1
+woda mineralna;die Mineralwasser;1;0
+herbata;die Tee;0;1
+kawa;der Kaffee;0;0
+ciasto;der Kuchen;0;0
+kawiarnia;das Cafe;0;0
+robić;machen;0;0
+Jesteś bardzo mądry;Du bist sehr gescheit;0;0
+most ;die Brücke;0;0
+rzeka;der Fluss;0;0
+dzielnica miasta;der Stadtteil;0;0
+ziemia, kraj;das Land;0;0
+miło mi;freucht mich;0;0
+park;der Park;0;0
+Wieża;der Turm;0;0
+rynek;der Markt;0;0
+do widzenia;auf wiedersehen!;0;0
+dzień dobry;guten tag!;0;0
+telefon;das Telefon;0;0
+muzeum;das Museum;0;0
+Pani;die Frau;0;0
+dworzec;der Banhof;0;0
+Pan;der Herr;0;0
+ulica;die Staße;0;0
+Polska;polen;0;1
+wizytówka;die Visitenkarten;0;0
+mówić; sagen;0;0
+niemcy;deutschland;0;0
+Wszystko dobrze, dzięki.;Ganz gut, danke!;0;0
+kościół;die kirche;0;0
+numer;die Nummer;0;0

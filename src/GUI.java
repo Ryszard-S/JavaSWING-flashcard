@@ -32,12 +32,12 @@ public class GUI extends JFrame{
         readfile.read();
         Collections.sort(readfile.Lista);
         y = (Lista_slowek) readfile.Lista.get(wiersz);
-        txt_pl.setText(y.getS_polski());
-        lbl_wiem.setText(String.valueOf(y.getWiem()));
-        lbl_niewiem.setText(String.valueOf(y.getNie_wiem()));
+        txt_pl.setText(y.getS_pl());
+        lbl_wiem.setText(String.valueOf(y.getKnow()));
+        lbl_niewiem.setText(String.valueOf(y.getD_know()));
 
         btn_wiem.addActionListener(e -> wiem());
-        btn_odp.addActionListener(e -> txt_de.setText(y.getS_niemiecki()));
+        btn_odp.addActionListener(e -> txt_de.setText(y.getS_de()));
         btn_niewiem.addActionListener(e -> nie_wiem());
         readfile.setLista(readfile.Lista);
         jmi_save.addActionListener(e -> {
@@ -46,8 +46,8 @@ public class GUI extends JFrame{
                 zapis = new PrintWriter(setGetPath.getPath());
                 for (int i = 0; i<readfile.Lista.size();i++) {
                     y = (Lista_slowek) readfile.Lista.get(i);
-                    zapis.println(y.getS_polski() + ";" + y.getS_niemiecki() + ";" + y.getWiem() + ";" + y.getNie_wiem());
-                    System.out.println(y.getS_polski()+";"+y.getS_niemiecki()+";"+y.getWiem()+";"+y.getNie_wiem());
+                    zapis.println(y.getS_pl() + ";" + y.getS_de() + ";" + y.getKnow() + ";" + y.getD_know());
+                    System.out.println(y.getS_pl()+";"+y.getS_de()+";"+y.getKnow()+";"+y.getD_know());
                 }
             } catch (FileNotFoundException fileNotFoundException) {
                 fileNotFoundException.printStackTrace();
@@ -68,24 +68,24 @@ public class GUI extends JFrame{
     }
 
             public void wiem() {
-                int z =y.getWiem() + 1;
-                y.setWiem(z);
+                int z =y.getKnow() + 1;
+                y.setKnow(z);
                 wiersz++;
                 y = (Lista_slowek) readfile.Lista.get(wiersz);
-                txt_pl.setText(y.getS_polski());
+                txt_pl.setText(y.getS_pl());
                 txt_de.setText("");
-                lbl_wiem.setText(String.valueOf(y.getWiem()));
-                lbl_niewiem.setText(String.valueOf(y.getNie_wiem()));
+                lbl_wiem.setText(String.valueOf(y.getKnow()));
+                lbl_niewiem.setText(String.valueOf(y.getD_know()));
             }
 
             public void nie_wiem() {
-                y.setNie_wiem(y.getNie_wiem() + 1);
+                y.setD_know(y.getD_know() + 1);
                 wiersz++;
                 y = (Lista_slowek) readfile.Lista.get(wiersz);
-                txt_pl.setText(y.getS_polski());
+                txt_pl.setText(y.getS_pl());
                 txt_de.setText("");
-                lbl_wiem.setText(String.valueOf(y.getWiem()));
-                lbl_niewiem.setText(String.valueOf(y.getNie_wiem()));
+                lbl_wiem.setText(String.valueOf(y.getKnow()));
+                lbl_niewiem.setText(String.valueOf(y.getD_know()));
             }
 
 

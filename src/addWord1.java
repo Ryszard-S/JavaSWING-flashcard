@@ -10,8 +10,9 @@ public class addWord1 extends JFrame{
     private JPanel JPanel1;
     readFile r = new readFile();
 
+    //Don't work !!
     public addWord1() {
-        super("Dodaj słowo");
+        super("Add word");
         this.getContentPane().add(this.JPanel1);
         setLocation(333, 333);
         pack();

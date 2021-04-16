@@ -57,7 +57,7 @@
         <properties>
           <background color="-12076223"/>
           <foreground color="-16645119"/>
-          <text value="Wiem"/>
+          <text value="I know"/>
         </properties>
       </component>
       <component id="41e9f" class="javax.swing.JButton" binding="btn_odp">
@@ -65,7 +65,7 @@
           <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Pokaż odpowiedź"/>
+          <text value="Show answer"/>
         </properties>
       </component>
       <component id="75f66" class="javax.swing.JButton" binding="btn_niewiem">
@@ -75,7 +75,7 @@
         <properties>
           <background color="-4044985"/>
           <foreground color="-16645119"/>
-          <text value="Nie wiem"/>
+          <text value="I don't know"/>
         </properties>
       </component>
       <component id="87a3" class="javax.swing.JLabel" binding="lbl_wiem">
@@ -140,7 +140,8 @@
               <foreground color="-16645119"/>
               <hideActionText value="false"/>
               <requestFocusEnabled value="false"/>
-              <text value="Zapisz"/>
+              <selected value="false"/>
+              <text value="Save"/>
             </properties>
             <clientProperties>
               <hideActionText class="java.lang.Boolean" value="false"/>
@@ -154,7 +155,7 @@
               <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <text value="Dodaj słowo"/>
+              <text value="add word"/>
             </properties>
             <border type="none"/>
             <children/>
