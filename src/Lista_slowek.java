@@ -1,51 +1,45 @@
-// List of seters ang getters for ArrayList of objects(Lista_slowek).
+
 public class Lista_slowek implements Comparable<Lista_slowek> {
-        private  String s_pl;
-        private  String s_de;
-        private  int know;
-        private  int d_know;
+        private  String s_polski;
+        private  String s_niemiecki;
+        private  int wiem;
+        private  int nie_wiem;
 
-        public Lista_slowek(String s_pl, String s_de, int know, int d_know) {
-            this.s_pl = s_pl;
-            this.s_de = s_de;
-            this.know = know;
-            this.d_know = d_know;
+        public Lista_slowek(String s_polski, String s_niemiecki, int wiem, int nie_wiem) {
+            this.s_polski = s_polski;
+            this.s_niemiecki = s_niemiecki;
+            this.wiem = wiem;
+            this.nie_wiem = nie_wiem;
         }
 
-        public String getS_pl() {
-            return s_pl;
+        public String getS_polski() {
+            return s_polski;
         }
 
-        public String getS_de() {
-            return s_de;
+        public String getS_niemiecki() {
+            return s_niemiecki;
         }
 
-        public int getKnow() {
-            return know;
+        public int getWiem() {
+            return wiem;
         }
 
-        public int getD_know() { return d_know; }
-
-        public void setS_polski(String s_pl) {
-            this.s_pl = s_pl;
+        public int getNie_wiem() {
+            return nie_wiem;
         }
 
-        public void setS_niemiecki(String s_de) {
-            this.s_de = s_de;
+        public void setWiem(int wiem) {
+            this.wiem = wiem;
         }
 
-        public void setKnow(int know) {
-            this.know = know;
-        }
-
-        public void setD_know(int d_know) {
-            this.d_know = d_know;
+        public void setNie_wiem(int nie_wiem) {
+            this.nie_wiem = nie_wiem;
         }
 
         @Override
         public int compareTo(Lista_slowek o) {
-            if (this.getKnow()<o.getKnow()) return -1;
-            if (this.getKnow()>o.getKnow()) return 1;
+            if (this.getWiem()<o.getWiem()) return -1;
+            if (this.getWiem()>o.getWiem()) return 1;
             return 0;
         }
     }

@@ -8,11 +8,9 @@ public class addWord1 extends JFrame{
     private JTextPane textPane2;
     private JButton dodajButton;
     private JPanel JPanel1;
-    readFile r = new readFile();
 
-    //Don't work !!
     public addWord1() {
-        super("Add word");
+        super("Dodaj słowo");
         this.getContentPane().add(this.JPanel1);
         setLocation(333, 333);
         pack();
@@ -20,9 +18,10 @@ public class addWord1 extends JFrame{
         dodajButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                ArrayList l = new setGetLista().getLista();
                 String pl = textPane1.getText();
                 String de = textPane2.getText();
-                ArrayList x = r.getLista();
+                setGetLista.getLista().add(new Lista_slowek(pl,de,0,0));
             }
         });
     }

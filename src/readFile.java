@@ -9,16 +9,8 @@ import java.util.Scanner;
 
 public class readFile {
     String[] y;
-    public ArrayList Lista = new ArrayList<>();
+    private ArrayList Lista = new ArrayList<>();
 
-    public ArrayList getLista() {
-        return Lista;
-    }
-
-    public void setLista(ArrayList Lista) {
-        this.Lista = Lista;
-    }
-    Lista_slowek l;
     public void read() {
         Scanner file = null;
         try {
@@ -35,10 +27,10 @@ public class readFile {
             String q2 = y[1];
             Integer q3 = Integer.parseInt(y[2]);
             Integer q4 = Integer.parseInt(y[3]);
-            l= new Lista_slowek(q1,q2,q3,q4);
-            Lista.add(l);
+            Lista.add(new Lista_slowek(q1,q2,q3,q4));
     }
         file.close();
-        setLista(Lista);
+        setGetLista l = new setGetLista();
+        l.setLista(Lista);
     }
 }
